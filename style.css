@@ -1,0 +1,122 @@
+body {
+	width: 607px;
+	height: 500px;
+	margin-top: 0px;
+}
+
+#head {
+	top: 0;
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid rgb(100, 65, 165);
+}
+
+#twitch_img {
+	float: left;
+}
+#twitch_img a img{
+	border: none;
+}
+
+#links {
+	float: right;
+	margin-right: 20px;
+	margin-top: 6px;
+}
+
+#account_link {
+	font-size: 14pt;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: rgb(100, 65, 165);
+}
+#account_link:hover {
+	color: rgb(24, 23, 23);
+}
+
+#menu {
+	border: 1px solid rgb(204, 204, 204);
+	padding: 12px 0 12px 0;
+	background-color: white;
+	position: absolute;
+	right: 0;
+	margin-top: 28px;
+	margin-right: 8px;
+	display: none;	
+}
+
+.other_link {
+	display: block;
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: 5px 15px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(100, 65, 165);
+	font-size: 9pt;
+	cursor: pointer;
+}
+.other_link:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(100, 65, 165);
+}
+
+
+
+#follows {
+	width: 598px;
+	height: 440px;
+	overflow-y: auto;
+}
+
+.follow {
+	height: 40px;
+	padding: 10px 5px;
+	border-bottom: 1px solid rgb(204, 204, 204); 
+}
+.follow img {
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+.follow a {
+	float: left;
+	margin-top: 11px;
+	margin-left: 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: rgb(100, 65, 165);
+}
+.follow a:hover {
+	color: rgb(24, 23, 23);
+}
+.follow div.statusOnline {
+	float: right;
+	margin-top: 11px;
+	margin-right: 20px;
+	font-family: sans-serif;
+	color: rgb(255, 0, 0);
+}
+.follow div.statusOnline img {
+	width: 12px;
+	height: 12px;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+.follow div.statusOnline span {
+	margin-right: 30px;
+	color: rgb(31, 31, 31);
+}
+.follow div.statusOffline {
+	float: right;
+	margin-top: 11px;
+	margin-right: 20px;
+	font-family: sans-serif;
+	color: rgb(204, 204, 204);
+}
+
+#noChannels {
+	margin-top: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(204, 204, 204);
+}
